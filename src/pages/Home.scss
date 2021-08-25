@@ -1,0 +1,15 @@
+.app {
+	display: grid;
+	padding: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(min(25em, 30em), 1fr));
+	gap: 7em 4em;
+	margin-bottom: 4em;
+}
+@media (max-width: 476px) {
+	.app {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(min(10em, 15em), 1fr));
+		gap: 7em;
+		margin-bottom: 4em;
+	}
+}
